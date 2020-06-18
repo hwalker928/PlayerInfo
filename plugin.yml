@@ -1,0 +1,13 @@
+name: PlayerInfo
+author: Spire
+version: 1.0.0
+api-version: 1.15
+#Please replace main: with your own package!
+main: me.spire.playerinfo.PlayerInfo
+permissions:
+    playerinfo.use:
+        description: This permission allows you to use /pinfo
+        default: op
+commands:
+  pinfo:
+    description: Shows you the players coordinates.
